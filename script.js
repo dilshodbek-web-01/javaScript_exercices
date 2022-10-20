@@ -383,7 +383,7 @@
 
 // #1.
 
-// let n=+prompt("write number and take it");
+// let n=+prompt("write_number");
 // let array=[];
 
 // for(let i=0; i<=n; i++){
@@ -401,6 +401,146 @@
 //   array.push(2**i);
 //   console.log(array[i]);
 // }
+// console.log(array);
+
+// #3.
+// ????
+
+// #4.
+// ????
+
+// #5.
+
+// let n = +prompt("write_number");
+// let array = [];
+// let index = 0;
+// for (let i = 0; i <= n; i++){
+//     array.push(i);
+//     index += i;
+// }
+// console.log(index);
+// console.log(array);
+
+// #6.
+
+// let n = +prompt("write_number");
+// let array = [];
+
+// for (let i = n; i >= 0; i--){
+//     array.push(i);
+//     console.log(i);
+// }
+// console.log(array);
+
+// #7.
+// ????
+
+// #8.
+
+// let n = 0;
+// let K = +prompt("first_number");
+// let L = +prompt("second_number");
+// let array = [];
+
+// for (let i = K; i <= L; i++) {
+//   array.push(i);
+//   n += i;
+// }
+// console.log(n);
+// console.log(array);
+
+// #9.
+
+// let n = +prompt("write_number");
+// let array = [];
+// for (let i = 0; i <= n; i++) {
+//   if (i % 2 == 0) {
+//     array.push(i);
+//     console.log(i);
+//   }
+// }
+// console.log(Math.max(...array));
+// console.log(array);
+
+// #10.
+
+// let n = +prompt("write_number");
+// let array = [];
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 == 0) {
+//     array.push(i);
+//     console.log(i);
+//   }
+// }
+// console.log(Math.min(...array));
+// console.log(array);
+
+// #11.
+
+// let n = +prompt("write_number");
+// let array = [];
+
+// for (let i = 0; i <= n; i++){
+//     if(i%2 == 1){
+//         array.push(i);
+//         console.log(i);
+//     }
+// }
+// console.log(Math.max(...array));
+// console.log(array);
+
+// #12.
+
+// let n = +prompt("write_number");
+// let m = 0;
+// array = [];
+
+// for (let i = 1; i <= n; i++){
+//     array.push(i);
+//     if (m += i);
+// }
+// console.log(m/n);
+// console.log(array);
+
+// #13.
+
+// let n = +prompt("write_number");
+// let array = [];
+
+// for (let i = 0; i <= n; i++) {
+//     array.push(i);
+//   if (i % 2 == 1) {
+//     console.log(i);
+//   }
+// }
+// console.log(array);
+
+// #14.
+// ????
+
+// #15.
+
+// let n = +prompt("write_number");
+// let array = [];
+
+// for (let i = 0; i <= n; i++){
+//     array.push(i)
+//     if (i%2 == 1){
+//         console.log(i);
+//     }
+// }
+// console.log(array);
+
+// #21.
+
+// let n = +prompt("write_number");
+// let array = [];
+
+// for (let i = 0; i <= n; i++){
+//     array.push(i);
+//     // console.log(i);
+// }
+// console.log(Math.max(...array));
 // console.log(array);
 
 // "ARRAY" HOMEWORS END
@@ -430,3 +570,16 @@
 // }
 
 // ARRAY exercises end
+
+// let n = [];
+// let index = 0;
+// for(let i = 0; i <= 10; i++){
+//     index += i;
+//     if(i % 2 == 1){
+//         n.push(index);
+//         console.log(index)
+//     }
+//     // console.log(index);
+// }
+// // console.log(index);
+// console.log(n)
