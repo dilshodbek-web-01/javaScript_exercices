@@ -1,4 +1,197 @@
-// SWITCH CASE homeworks start
+// "TIPS" homeworks start.
+
+// #1.
+
+// let L = +prompt("Enter_sm");
+// let sm = 100;
+// let result = L / sm;
+// console.log(`${L} sm ${result} metr`);
+
+// #2.
+
+// let M = +prompt("Enter_ton");
+// let kg = 1000;
+// let result = M * kg;
+// console.log(`${M} ton ${result} kg`);
+
+// #8.
+
+// let s = +prompt("write_number");
+// let minute = 60;
+// let hour = minute * 60;
+// let result1 = s / minute;
+// let result2 = s / hour;
+// console.log(`${s} second = ${result2} hour ${result1} minute`);
+
+// "TIPS" homeworks end.
+
+// "CONDITIONAL OPERATOR, or IF && ELSE" homeworks start.
+
+// #1.
+
+// let a = +prompt("enter_number");
+// if(a > 0){
+//     console.log(true);
+// }else {
+//     console.log(false);
+// }
+
+// #2.
+
+// let a = +prompt("enter_number");
+// if(a % 2 == 1){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+// #3.
+
+// let a = +prompt("enter_number");
+// if(a % 2 == 0){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+// #4.
+
+// let a = +prompt("first_number");
+// let b = +prompt("second_number");
+
+// if (a > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+// if (b > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// #5.
+// ????
+
+// #6.
+// ????
+
+// #7.
+
+// let a = +prompt("a=");
+// let b = +prompt("b=");
+
+// if (a % 2 == 1 && b % 2 == 1) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// #8.
+
+// let a = +prompt("a=");
+// let b = +prompt("b=");
+// let c = +prompt("c=");
+// let d = +prompt("d=");
+
+// if(a, b, c, d > 0) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+// #9.
+// ????
+
+// #10.
+
+// let weekday = +prompt("write_number");
+
+// if (weekday == "1") {
+//   console.log("Monday");
+// } else if (weekday == "2") {
+//   console.log("Thuesday");
+// } else if (weekday == "3") {
+//   console.log("Wednesday");
+// } else if (weekday == "4") {
+//   console.log("Thursday");
+// } else if (weekday == "5") {
+//   console.log("Friday");
+// } else if (weekday == "6") {
+//   console.log("Saturday");
+// } else if (weekday == "7") {
+//   console.log("Sunday");
+// } else {
+//   console.log("wrong_number");
+// }
+
+// #11.
+
+// let company_code = +prompt("write__company-code");
+
+// if (company_code == "33") {
+//   console.log("Humans");
+// } else if (company_code == "88") {
+//   console.log("Mobiuz");
+// } else if (company_code == "90") {
+//   console.log("Beeline");
+// } else if (company_code == "91") {
+//   console.log("Beeline");
+// } else if (company_code == "93") {
+//   console.log("Ucell");
+// } else if (company_code == "94") {
+//   console.log("Ucell");
+// } else if (company_code == "97") {
+//   console.log("Mobiuz");
+// } else if (company_code == "98") {
+//   console.log("Perfectum_Mobile");
+// } else if (company_code == "99") {
+//   console.log("O`zbektelekom");
+// } else {
+//   console.log("wrong_code");
+// }
+
+// #12.
+
+// let a = +prompt("write_number");
+
+// if (a > 0) {
+//   console.log(`${a + 1}`);
+// } else {
+//   console.log(`${a - 1}`);
+// }
+
+// #13.
+
+// let a = +prompt("write_number");
+
+// if (a > 0) {
+//   console.log(`${a + 3}`);
+// } else {
+//   console.log(`${a - 2}`);
+// }
+
+// #14.
+
+// let a = +prompt("first_number");
+// let b = +prompt("second_number");
+
+// if (a > b) {
+//     console.log(`${a}`);
+// } else {
+//     console.log(`${b}`);
+// }
+
+// #15.
+// ????
+
+// #16.
+// ????
+
+
+// "CONDITIONAL OPERATOR, or IF && ELSE" homeworks end.
+
+// "SWITCH CASE" homeworks start.
 // #1.
 
 // let count = +prompt("enter number");
@@ -546,7 +739,9 @@
 // "ARRAY" HOMEWORS END
 
 // ARRAY exercises start
+
 // #1.
+
 // let nums = [0, 1, 5, 3, 9];
 // let arr = [];
 
@@ -560,6 +755,7 @@
 // console.log(arr);
 
 // #2.
+
 // let array=['javaScript', 'go lang', 'css'];
 // console.log(array);
 // console.log(array[0]);
@@ -568,6 +764,17 @@
 // for (let i=0; i<=2; i++){
 //   console.log(array[i]);
 // }
+
+// #3.
+
+// let n = +prompt("How_many_times_should_it_work?");
+// array = [];
+
+// for (let i = 1; i <= n; i++){
+//     let num = +prompt(`${i} -write_number`);
+//     array.push(num);
+// }
+// console.log(array);
 
 // ARRAY exercises end
 
